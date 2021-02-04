@@ -9,7 +9,7 @@ const Carrinho = () => {
     const valorCarrinho = useSelector((state: Store) => state.carrinho)
 
     return(
-        <p>carrinho: {valorCarrinho}</p>
+        <p>{valorCarrinho}</p>
     );
 }
 
